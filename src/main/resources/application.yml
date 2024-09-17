@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    db1:
+      url: jdbc:mysql://localhost:3306/jooq_practice
+      username: root
+      password: root
+    db2:
+      url: jdbc:postgresql://localhost:5432/jooq_postgres
+      username: postgres
+      password: root
+  jooq:
+    sql-dialect: MYSQL
+    db2:
+      sql-dialect: POSTGRES
